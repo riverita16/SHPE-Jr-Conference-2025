@@ -49,12 +49,12 @@ Feel free to change these around as you see fit!
     - These authenticate you to the API
     - Note: These should not be shared and are usually not stored in plaintext
 
-### How it works
-You are provided with a Python class called Spot that makes working with the Spotify Web API simpler. Once we authenticate a user, we can make requests to the API and get and manipulate data from their account. 
+### How it works (it is ok if some or all of this does not make a lot of sense yet)
+You are provided with a Python class called Spot that makes working with the Spotify Web API (databases) simpler. Once we authenticate a user, we can make requests to the API and get and manipulate data from their account. 
 
 We use **Flask** to host a server on the localhost, your computer's network, that the Spotify API will use to communicate with your app.
 
-To **GET** information from the API, you make a request to an endpoint. An endpoint is where specific data is stored.
+To **GET** information from the API, you make a request to an endpoint. An **endpoint** is where specific data is stored.
 
 The reference section of the [Web API Documentation](https://developer.spotify.com/documentation/web-api) contains every endpoint you may need to develop your app. Take some time to understand the documentation and how to get different types of data.
 
